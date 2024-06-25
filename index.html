@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>finance</title>
+        <script src="./index.js" defer></script>
+    </head>
+    <body>
+        <h1 class="titleh1">finances</h1>
+        <br>
+        <h2 class="subtitleh2">Books</h2>
+        <br>
+        <div class="books"></div>
+        <br>
+        <form class="IncomeFrom">
+            
+            <label class="labelIncome" >Fixed Income</label><br>
+
+            <label>Week 1</label>
+            <input class="weekIn income1"  value="0" type="number" placeholder="0" onchange="{handleInputChange()}"><br>
+
+            <label>Week 2</label>
+            <input class="weekIn income2" value="0" type="number" placeholder="0" onchange="{handleInputChange()}"><br>
+
+            <label>Week 3</label>
+            <input class="weekIn income3" value="0" type="number" placeholder="0" onchange="{handleInputChange()}"><br>
+
+            <label>Week 4</label>
+            <input class="weekIn income4" value="0" type="number" placeholder="0" onchange="{handleInputChange()}"><br>
+            <br>
+
+            <label>Variable Income</label><br>
+
+            <input class="description" placeholder="description" type="text"></input>
+            <input class="weekIn incomeXt1" value="0" type="number" placeholder="0" onchange="{handleInputChange()}"><br>
+
+            <input class="description"  placeholder="description" type="text"></input>
+            <input class="weekIn incomeXt2" value="0" type="number"  placeholder="0" onchange="{handleInputChange()}"><br>
+
+
+        </form>
+
+        <div id="totalIncome"  class="IncomeTotal"></div>
+
+        <br><hr><br>
+        
+        <form class="OutputFrom">
+
+            <label class="labeloutput">Fixed Output</label><br>
+
+            <label>Rent</label>
+            <input class="weekOut Output1" type="number" value="0" placeholder="0" onchange="{handleOutputChange()}">
+            <br>
+
+            <label>Light</label>
+            <input class="weekOut Output2" value="0" type="number" placeholder="0">
+            <br>
+
+            <label>Water</label>
+            <input class="weekOut Output3" value="0" type="number" placeholder="0">
+            <br>
+
+            <label>Health Insure</label>
+            <input class="weekOut Output4" value="0" type="number" placeholder="0">
+            <br>
+            
+            
+            <label>Phone</label>
+            <input class="weekOut Output5" value="0" type="number" placeholder="0">
+            <br>
+            
+            
+            <label>Car</label>
+            <input class="weekOut Output6" value="0" type="number" placeholder="0">
+            <br>
+            
+            
+            <label>Car Insure</label>
+            <input class="weekOut Output7" value="0" type="number" placeholder="0">
+            <br>
+            
+            
+            <label>furniture</label>
+            <input class="weekOut Output8" value="0" type="number" placeholder="0">
+            <br>
+            
+            
+            <label>XboxPass</label>
+            <input class="weekOut Output9" value="0" type="number" placeholder="0">
+            <br>
+            
+            <label>Gym</label>
+            <input class="week Output10" value="0" type="number" placeholder="0">
+            <br>
+
+            <label>Carwash</label>
+            <input class="week Output11" value="0" type="number" placeholder="0">
+            <br>
+
+            <label>Stream</label>
+            <input class="week Output12" value="0" type="number" placeholder="0">
+            <br>
+
+            <label>Acorns</label>
+            <input class="week Output13" value="0" type="number" placeholder="0">
+            <br>
+
+
+            <label>Variable Output</label><br>
+
+            <input class="description" placeholder="description" type="text"></input>
+            <input class="incomeXt1" value="0" type="number" placeholder="0"><br>
+            <input class="description" placeholder="description" type="text"></input>
+            <input class="incomeXt2" value="0" type="number" placeholder="0"><br>
+
+
+        </form>
+
+        <div class="OutputTotal"></div>
+
+        <div class="total"></div>
+
+        <button>Create Book</button>
+
+
+    </body>
+</html>
